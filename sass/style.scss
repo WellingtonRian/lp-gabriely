@@ -1,0 +1,81 @@
+@import 'typhoghary.scss';
+@import 'spacing.scss';
+@import 'colors.scss';
+@import 'layout.scss';
+@import 'button.scss';
+@import 'imagens.scss';
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid red;
+}
+.linha{
+    background-image: linear-gradient(to right,$primary-color,$secondary-color);
+    border: none;
+    height: 2px;
+}
+
+
+@media (max-width: 740px){
+    .gab-foto{
+        max-width: 95%;
+        margin-left: 0px;
+    }
+    .margin-primeira{
+        margin-top: -150px;
+    }
+    .headline-two{
+        text-align: center;
+        width: 100%;
+    }
+    .gab-ultima{
+        max-width: 95%;
+    }
+    .magic-box{
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 570px){
+    .margin-primeira{
+        margin-top: -240px;
+        padding-left: 10px;
+    }
+    .text-box{
+        padding-left: 10px;
+    }
+    .text-ult{
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 440px){
+    .margin-primeira{
+        margin-top: -340px;
+        
+        h1{
+            font-size: 20px;
+        }
+        span{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .star{
+        width: 70%;
+    }
+    .headline-two{
+        h1{
+            font-size: 18px;
+        }
+    }
+    .text-box{
+        margin-top: -200px;
+    }
+}
